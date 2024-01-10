@@ -1,0 +1,30 @@
+#show the parrot dancing in the terminal
+curl parrot.live
+
+curl -s https://cowsay.morecode.org/say?message=Hello
+
+#Display random joke
+curl -s https://api.chucknorris.io/jokes/random | jq -r '.value'
+
+#weather forecast
+curl wttr.in
+
+#Display random  quotes
+curl -s https://api.quotable.io/random | jq -r '.content + " - " + .author'
+
+#ascii art generator
+curl -s https://artii.herokuapp.com/make?text=Hello
+
+#Display a Random Cat Fact with ASCII Art:
+curl -s https://catfact.ninja/fact | jq -r '.fact' && curl -s https://lorim ipsum.herokuapp.com/300/200/animal | jp2a --width=40 -
+
+#Star Wars ASCII Art:
+curl -s https://swapi.dev/api/people/1/ | jq -r '.name' && curl -s http://www.ascii-art.de/ascii/ab/starwars.txt
+
+#Display a Random XKCD Comic:
+  curl -s https://xkcd.com/info.0.json | jq -r '.img' | xargs -I{} curl -s {} | display -
+
+#display the small moon in the terminal
+ curl -s https://wttr.in/Moon?format=%m
+
+ 
