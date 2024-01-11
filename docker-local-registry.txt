@@ -1,0 +1,10 @@
+#pull the images
+$ docker pull registy
+#docker run command
+$ docker run -d -p 5000:5000 --restart=always --name snk registry
+#Pull any docker image
+$ docker pull httpd
+# docker tag
+$ docker tag httpd localhost:5000/httpd:latest
+#docker push
+$ docker push localhost:5000/httpd
