@@ -8,3 +8,7 @@ $ docker pull httpd
 $ docker tag httpd localhost:5000/httpd:latest
 #docker push
 $ docker push localhost:5000/httpd
+
+
+#you can see the output in the below site
+Ip:5000/v2/_catalog
