@@ -3,6 +3,9 @@
 #aws cli installation
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
+#install zip if not available
+apt install zip -y
+
 #unzip the awscliv2.zip file
 unzip -q awscliv2.zip
 
